@@ -260,3 +260,5 @@ if __name__ == '__main__':
         os.system("rm -rf tmp/ geckodriver.log && service tor stop")
 
         exit(1)
+        
+python faitagram -s instagram -u username -w wordlist -d delay
